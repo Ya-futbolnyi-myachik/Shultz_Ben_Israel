@@ -41,7 +41,7 @@ def shultz_inv(original, tolerance=1e-7, max_iterations=1000, show_explanation=F
         print(f'Норма Фробениуса:\n{frobenius_norm}\n\n'
               f'Альфа равно:\n{alpha}\n\n'
               f'Транспонированная матрица:\n{original.transpose()}\n\n'
-              f'Начальная приближение:\n{approx}\n')
+              f'Начальное приближение:\n{approx}\n')
 
     n = original.shape[0]   # Размерность исходной матрицы
     unit = 2 * np.eye(n)    # Единичную матрицу той же размерности умножаем на два
