@@ -7,7 +7,7 @@ def gen_inv(original, tolerance=1e-7, max_iterations=1000, show_explanation=Fals
     Вычисляет псевдообратную матрицу (generalized inverse) итерационным методом Бен-Израэля.
 
     Параметры:
-    - original (numpy.ndarray): Исходная матрица произволной размерности (m x n), где m - число строк, n - число столбцов.
+    - original (numpy.ndarray): Исходная матрица произвольной размерности (m x n), где m - число строк, n - число столбцов.
     - tolerance (float, optional): Порог сходимости. Алгоритм завершит выполнение,
     когда sigma станет меньше tolerance. По умолчанию 1e-7.
     - max_iterations (int, optional): Максимальное количество итераций. По умолчанию 1000.
